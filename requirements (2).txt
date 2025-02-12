@@ -1,3 +1,7 @@
+streamlit
+scikit-learn
+numpy
+lightgbm
 
 joblib==1.3.2
 lightgbm==4.3.0
