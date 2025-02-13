@@ -3,7 +3,7 @@ os.system("pip install scikit-learn")
 import streamlit as st
 import pickle
 import numpy as np
-from scikit-learn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 import lightgbm 
 # Load the trained model
 lgb=pickle.load(open('lgbmodekl.pkl','rb'))  # Replace 'your_model.pkl' with the path to your trained model file
